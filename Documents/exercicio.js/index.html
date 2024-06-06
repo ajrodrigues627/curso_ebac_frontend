@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de comparação</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <form id="formulario">
+            <h1>exercicio html e js</h1>
+            <h3> Informe os valores para comparação nos Campos "A" e "B" abaixo.</h3>
+            <h4>O campo valor do campo B deve ser maior que do campo A</h4>
+            <input type="number" id="campoA" required placeholder="Defina o Campo A" />
+            <input type="number" id="campoB" required placeholder="Defina o Campo B" />
+            <button type="submit" id="botao">COMPARAR</button>
+        </form>
+        <p class="resultado_certo"></p>
+        <p class="resultado_erro"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
